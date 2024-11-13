@@ -1,0 +1,7 @@
+# Удиви своих одногруппников!
+import random
+fakts_s = ["Я хочу стать специолистом по кибербезопасности", "Я учусь с 8:00 до 17:00"]
+hobby_s = [ "Мне нравятся шахматы", "Занимаюсь электротехникой"]
+fakt = random.choice(fakts_s)
+hobby = random.choice(hobby_s)
+print(fakt, "и" ,hobby)
